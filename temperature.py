@@ -15,8 +15,13 @@ class Temperature:
     def Celsia(celsias):
         celsias = celsia * 1.8 + 32
         return celsias
-        
+
     @staticmethod
     def Faringate(faringates):
         faringates = (faringate - 32) / 1.8
         return faringates
+t = Temperature()
+temeat1 = t.Celsia(faringate)
+temeat2 = t.Faringate(celsia)
+print(temeat1)
+print(temeat2)
