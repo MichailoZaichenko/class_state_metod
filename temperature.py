@@ -7,9 +7,6 @@ celsia = int(input("Введите температуру в цельсиях: "
 faringate = int(input("Введите температуру в фарингейтах: "))
 
 class Temperature:
-    def __init__(self, celsias, faringates):
-        self.celsias = celsias
-        self.faringates = faringates
 
     @staticmethod
     def Celsia(celsias):
