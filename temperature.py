@@ -10,3 +10,8 @@ class Temperature:
     def __init__(self, celsias, faringates):
         self.celsias = celsias
         self.faringates = faringates
+
+    @staticmethod
+    def Celsia(celsias):
+        celsias = celsia * 1.8 + 32
+        return celsias
